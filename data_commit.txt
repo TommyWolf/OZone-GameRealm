@@ -1,0 +1,27 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   Unity/Assets/Warnimals_Game.unity
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   Unity/Assets/Prefabs/weapons/ammunition/Grenade.prefab
+#	modified:   Unity/Assets/Standard Assets/Particles/Sources/Materials/Dust Material 1.mat
+#	modified:   Unity/Assets/Standard Assets/Particles/Sources/Materials/Fire Add.mat
+#	modified:   Unity/Assets/Standard Assets/Particles/Sources/Materials/Fire Smoke.mat
+#	modified:   Unity/Assets/Standard Assets/Particles/Sources/Materials/Smoke1.mat
+#	modified:   Unity/Assets/Standard Assets/Projectors/Blob Shadow Projector.prefab
+#	modified:   Unity/Assets/Standard Assets/Projectors/Sources/Materials/Shadow Material.mat
+#	modified:   Unity/Assets/Standard Assets/Tree Creator/Sources/Materials/BigTree_branches.mat
+#	modified:   Unity/Assets/Standard Assets/Tree Creator/Sources/Materials/BigTree_leaves.mat
+#
+
