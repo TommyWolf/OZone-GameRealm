@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Pause Menu\PauseMenu.js" />
      <Compile Include="Assets\Scripts\Unity\ImageEffectsOrder.js" />
      <Compile Include="Assets\Scripts\Unity\ShowFps.js" />
      <Compile Include="Assets\Scripts\Unity\WaterShaderHelper.js" />
@@ -146,6 +147,7 @@
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <Compile Include="Assets\fightBOT (free)\script\robo_animationCheck_free.js" />
      <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\_DepthOfField\SeparableWeightedBlur.shader" />
      <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort.shader" />
@@ -203,6 +205,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\RadialBlurDepth.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\LensFlareComposite.shader" />
+     <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\ConvertDepth.shader" />
      <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorMultiply.shader" />

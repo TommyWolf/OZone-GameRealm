@@ -124,6 +124,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\RadialBlurDepth.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\LensFlareComposite.shader" />
+     <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\ConvertDepth.shader" />
      <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorMultiply.shader" />

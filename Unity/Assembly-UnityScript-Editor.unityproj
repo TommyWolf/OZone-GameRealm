@@ -106,6 +106,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\RadialBlurDepth.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\LensFlareComposite.shader" />
+     <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\ConvertDepth.shader" />
      <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorMultiply.shader" />
@@ -162,6 +163,12 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\RadialBlurDepthWeighted.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
      <None Include="Assets\Shaders\alpha_2sided.shader" />
+ <Reference Include="IcoChat">
+ <HintPath>Assets\Plugins\IcoChat\Editor\IcoChat.dll</HintPath>
+ </Reference>
+ <Reference Include="Verso">
+ <HintPath>Assets\Plugins\IcoChat\Editor\Verso.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:\Program Files\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -179,12 +186,6 @@
  </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>D:\Program Files\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="IcoChat">
- <HintPath>Assets\Plugins\IcoChat\Editor\IcoChat.dll</HintPath>
- </Reference>
- <Reference Include="Verso">
- <HintPath>Assets\Plugins\IcoChat\Editor\Verso.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
