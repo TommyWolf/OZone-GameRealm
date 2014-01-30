@@ -69,6 +69,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\EdgeApply.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\SunShafts.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorDecal.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\Helpers.cginc" />
@@ -84,6 +85,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\_DepthOfField\CopyDepthToRGBA.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Plugins\release_history.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\GlowCompose.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\MinMaxReduction.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\DepthRGBA8RadialBlur.shader" />
@@ -104,6 +106,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\RecordCenterDepth.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\DepthRecord.shader" />
      <None Include="Assets\Pro Standard Assets\Glass Refraction\Glass-Stained-BumpDistort 1.shader" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
      <None Include="Assets\Shaders\BillboardTree.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\RadialBlurDepth.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
@@ -122,6 +125,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
@@ -148,6 +152,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\_DepthOfField\SeparableRGBADepthBlur.shader" />
      <None Include="Assets\Shaders\Vegetation-TwoPassUnlit.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\_BloomAndFlares\HollywoodFlareStretch.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\VignettingShader.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
@@ -164,6 +169,7 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\DepthDownsample.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\RadialBlurDepthWeighted.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
      <None Include="Assets\Shaders\alpha_2sided.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
@@ -191,6 +197,12 @@
  </Reference>
  <Reference Include="UnityEditor.Android.Extensions">
  <HintPath>D:\Program Files\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>Assets\Photon Unity Networking\Editor\PhotonNetwork\Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
