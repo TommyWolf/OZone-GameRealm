@@ -20,8 +20,8 @@ using UnityEditor;
 /// This class is static.
 /// </summary>
 /// \ingroup publicApi
-public static class PhotonNetwork
-{
+public class PhotonNetwork : MonoBehaviour {
+
     /// <summary>Version number of PUN. Also used in GameVersion to separate client version from each other.</summary>
     public const string versionPUN = "1.24";
 

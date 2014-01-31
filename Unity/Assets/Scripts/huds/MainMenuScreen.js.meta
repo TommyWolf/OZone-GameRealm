@@ -2,7 +2,32 @@ fileFormatVersion: 2
 guid: c054ec82ef7ae4fc580bd7d15b18ecea
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - menuBackground: {instanceID: 0}
+  - windowBackground: {instanceID: 0}
+  - playGame: {instanceID: 0}
+  - playGameOver: {instanceID: 0}
+  - resume: {instanceID: 0}
+  - resumeOver: {instanceID: 0}
+  - options: {instanceID: 0}
+  - optionsOver: {instanceID: 0}
+  - graphics: {instanceID: 0}
+  - graphicsOver: {instanceID: 0}
+  - about: {instanceID: 0}
+  - aboutOver: {instanceID: 0}
+  - hudSkin: {fileID: 11400000, guid: 3cd9ef727b4174a779c776da20f4bd52, type: 2}
+  - receiveDamageOn: {instanceID: 0}
+  - receiveDamageOff: {instanceID: 0}
+  - dontReceiveDamageOn: {instanceID: 0}
+  - dontReceiveDamageOff: {instanceID: 0}
+  - black: {instanceID: 0}
+  - greenBar: {instanceID: 0}
+  - checkOn: {instanceID: 0}
+  - checkOff: {instanceID: 0}
+  - whiteMarker: {instanceID: 0}
+  - overSound: {instanceID: 0}
+  - clickSound: {instanceID: 0}
+  - loadingBackground: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
