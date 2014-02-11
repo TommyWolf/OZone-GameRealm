@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MYC\Main Menu\MenuWKScript.js" />
      <Compile Include="Assets\Mouse_Look.js" />
      <Compile Include="Assets\Pause Menu\PauseMenu.js" />
      <Compile Include="Assets\Scripts\Unity\ImageEffectsOrder.js" />
