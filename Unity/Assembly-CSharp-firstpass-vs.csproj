@@ -46,6 +46,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\PUN\CustomTypes.cs" />
+     <Compile Include="Assets\Plugins\PUN\Enums.cs" />
+     <Compile Include="Assets\Plugins\PUN\Extensions.cs" />
+     <Compile Include="Assets\Plugins\PUN\FriendInfo.cs" />
+     <Compile Include="Assets\Plugins\PUN\LoadbalancingPeer.cs" />
+     <Compile Include="Assets\Plugins\PUN\NetworkingPeer.cs" />
+     <Compile Include="Assets\Plugins\PUN\PhotonHandler.cs" />
+     <Compile Include="Assets\Plugins\PUN\PhotonLagSimulationGui.cs" />
+     <Compile Include="Assets\Plugins\PUN\PhotonNetwork.cs" />
+     <Compile Include="Assets\Plugins\PUN\PhotonPlayer.cs" />
+     <Compile Include="Assets\Plugins\PUN\PhotonStatsGui.cs" />
+     <Compile Include="Assets\Plugins\PUN\PhotonView.cs" />
+     <Compile Include="Assets\Plugins\PUN\PingCloudRegions.cs" />
+     <Compile Include="Assets\Plugins\PUN\PunEvent.cs" />
+     <Compile Include="Assets\Plugins\PUN\RPC.cs" />
+     <Compile Include="Assets\Plugins\PUN\Room.cs" />
+     <Compile Include="Assets\Plugins\PUN\RoomInfo.cs" />
+     <Compile Include="Assets\Plugins\PUN\RpcIndexComponent.cs" />
+     <Compile Include="Assets\Plugins\PUN\ServerSettings.cs" />
      <Compile Include="Assets\Pro Standard Assets\Image Based\BlurEffect.cs" />
      <Compile Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.cs" />
      <Compile Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\ContrastStretchEffect.cs" />
@@ -87,7 +106,6 @@
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\EdgeApply.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\SunShafts.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\ColorCorrectionCurves.shader" />
-     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Standard Assets\Blob-Shadow\ProjectorDecal.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\_BloomAndFlares\HollywoodFlareBlur.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\Helpers.cginc" />
@@ -143,7 +161,6 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\Image Based\Sources\Shaders\ChromaticAberrationShader.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
-     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
