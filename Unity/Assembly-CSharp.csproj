@@ -46,20 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CreateGUI 2\Example Scene\CreateGUIExample.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\CGElement.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\CreateGUI.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGButton.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGGroup.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGLabel.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGRoot.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGScrollArea.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGScrollbar.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGSlider.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGTextArea.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGTextField.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGTexture.cs" />
-     <Compile Include="Assets\CreateGUI 2\Standard Assets\Elements\CGWindow.cs" />
      <Compile Include="Assets\Locomotion System\AlignmentTracker.cs" />
      <Compile Include="Assets\Locomotion System\GhostOriginal.cs" />
      <Compile Include="Assets\Locomotion System\IK1JointAnalytic.cs" />

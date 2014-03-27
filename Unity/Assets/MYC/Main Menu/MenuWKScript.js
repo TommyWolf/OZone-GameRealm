@@ -20,12 +20,25 @@
 	public var windowConnectRect2 = 20;
 	public var windowConnectRect3 = 90;
 	public var windowConnectRect4 = 35;
+	public var windowDiscon1 = 60;
+	public var windowDiscon2 = 60;
+	public var windowDiscon3 = 120;
+	public var windowDiscon4 = 50;
+	public var windowDisconButton1 = 50;
+	public var windowDisconButton2 = 50;
+	public var windowDisconButton3 = 50;
+	public var windowDisconButton4 = 50;
 	public var ConnectButtonText = "Connect";
-	
+	var s1 : GUISkin;//["LoginSkin.guiskin"];
+	//var toggle = true;
+function Start() {
+
+	s1 == "LoginSkin";
+	}
 function Connect()
 	{
-	PhotonNetwork.AuthValues = new AuthenticationValues();
-	PhotonNetwork.AuthValues.SetAuthParameters(authName, authToken);
+	/*PhotonNetwork.AuthValues = new AuthenticationValues();
+	PhotonNetwork.AuthValues.SetAuthParameters(authName, authToken);*/
 	PhotonNetwork.ConnectUsingSettings("0.1");
 	}
 
@@ -40,10 +53,23 @@ function Window0() {
 
 }
 function OnGUI() {
+	GUI.skin = s1;
 	
 	(GUI.Window (0, windowRect, Window0, windowTitle));
-	
+	// PhotonNetwork.OnConnectedToMaster(GUI.Window (1, Rect (windowDisconButton1, windowDisconButton2, windowDisconButton3, windowDisconButton4), Window1, "Connection Status"));
 	}
 	
+function Window1() {
+
+	if (GUI.Button(Rect (windowDisconButton1, windowDisconButton2, windowDisconButton3, windowDisconButton4), "Disconnect"))
+		Disconnect();
+		
+	}
 
 
+function Disconnect() {
+
+	PhotonNetwork.Diconnect();
+	}
+	
+	
