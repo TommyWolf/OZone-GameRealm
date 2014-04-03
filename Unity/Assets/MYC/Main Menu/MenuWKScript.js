@@ -8,13 +8,13 @@
 	public var authName : String = "Enter your FB Login";
 	public var authToken : String = "Enter your FB Password";
 	public var windowTitle = "Connect to Master";
-	public var windowTitle2 = "Authenticating System"
+	public var windowTitle2 = "Authenticating System";
 	/*public var windowRect1 = 30;
 	public var windowRect2 = 30;
 	public var windowRect3 = 120;
 	public var windowRect4 = 50;*/
 	public var windowRect : Rect /*= Rect (windowRect1, windowRect2, windowRect3, windowRect4)*/;
-	public var windowRect2 : Rect
+	public var windowRect2 : Rect;
 	// vars with hide don't show up in inspector. at least that's the plan.
 	public var windowNickField1 = 20;
 	public var windowNickField2 = 15;
@@ -42,7 +42,7 @@
 	var connected = "0";
 	//var toggle = true;
 	//this var below is a testing var
-	var photonnetwork : PhotonNetwork;
+	//var PhotonNetwork : PhotonNetwork.cs;
 	
 // start of functions - different functions define different behaviours
 // function start happens when, and only when the script gets opened	
@@ -76,10 +76,11 @@ function Window0() {
 		
 	authToken = GUI.TextField (Rect (windowPassField1, windowPassField2, windowPassField3, windowPassField4), authToken, 25);
 	
+	//GUI.DragWindow(Rect (0, 0, 10000, 10000));
 	
-	if (GUI.Button(Rect (windowConnectRect1, windowConnectRect2, windowConnectRect3, windowConnectRect4), ConnectButtonText))
+	if (GUI.Button(Rect (windowConnectRect1, windowConnectRect2, windowConnectRect3, windowConnectRect4), ConnectButtonText)) {
 		Connect();
-
+	}
 }
 // special UNITY function, gets called every tick. Only for GUI calls
 function OnGUI() {
@@ -95,19 +96,27 @@ function OnGUI() {
 //	special UNITY function, gets called every tick. Calls pretty much everything
 function Update() {
 	
+	/*if (PhotonNetwork.GetConnectionState="Connected")) {
+		Jumpto();
+		}*/
+	
+	
 	if (connected=="1")
 		{
 			if (ConnectButtonText=="Connect")
 				{
 					ConnectButtonText="Disconnect";
 					Debug.Log("Didn't did this. WTF!");
+					if (PhotonNetwork.OnConnectedToMaster()) {
+						Debug.Log("Testing!");
+						}
 				}
 		}
 	else
 		{
 		if (connected=="0")
 			{
-				if (connected=="Disconnect")
+				if (ConnectButtonText=="Disconnect")
 					{
 						ConnectButtonText="Connect";
 						Debug.Log("Didn't did this. WTF?");
@@ -122,10 +131,11 @@ function Update() {
 // special UNITY function, calls the window 1 setup
 function Window1() {
 
-	if (GUI.Button(Rect (windowAuthButton1, windowAuthButton2, windowAuthButton3, windowAuthButton4), "Authenticate"))
-		Disconnect();
-		
-	}
+	if (GUI.Button(Rect (windowAuthButton1, windowAuthButton2, windowAuthButton3, windowAuthButton4), "Authenticate")) {
+		Debug.Log("It Works");
+		}
+	//GUI.DragWindow(Rect (0, 0, 10000, 10000));	
+}
 
 // disconnect function. Disconnects and resets state
 function Disconnect() {
@@ -135,4 +145,7 @@ function Disconnect() {
 	connected="0";
 	}
 	
+function Jumpto() {
+		Debug.Log("How do yu do it??");
+		}
 	
